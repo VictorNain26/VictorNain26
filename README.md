@@ -10,9 +10,7 @@ Python · TypeScript · React · PostgreSQL · Docker · GitHub Actions
 |---|---|
 | [fabrique-cours-agents](https://github.com/VictorNain26/fabrique-cours-agents) | Page-generation service built as a hands-on course: LangGraph with human validation, a Temporal workflow (tested, not wired to the API), multi-provider fallback with a budget, structured-output repair, guardrails, Langfuse tracing and a deterministic regression gate in CI (fake provider). |
 | [tomai-monorepo](https://github.com/VictorNain26/tomai-monorepo) | Socratic AI tutor (pre-launch): tool-calling chat agent, intent-based reasoning-effort routing, token budget and summarization, prompt-injection defenses, OpenTelemetry GenAI spans, per-turn cost tracking. Bun, Expo, Next.js. |
-| [tomai-curriculum](https://github.com/VictorNain26/tomai-curriculum) | Hybrid RAG index over official French curricula with golden sets and recall@k / MRR evaluation, including a measured embedding-model migration. |
 | [pexels-mcp-server](https://github.com/VictorNain26/pexels-mcp-server) | MCP server designed for agents: tool descriptions, structured output, actionable errors, OAuth 2.1 with encrypted bring-your-own-key. |
-| [AubeSonore](https://github.com/VictorNain26/AubeSonore) | Web radio in production: React PWA, Bun/Elysia API, PostgreSQL, Docker, CI. |
-| [musilogy](https://github.com/VictorNain26/musilogy) | Reproducible MusicBrainz data pipeline with SQL invariants and byte-identical outputs. |
+| [aubesonore](https://github.com/VictorNain26/aubesonore) | Self-hosted web radio on the air at [aubesonore.fr](https://aubesonore.fr/), one monorepo: a Python pipeline that discovers tracks, learns from my votes on a private page and from Discogs-EffNet audio embeddings, and schedules the antenna; the listener site (React PWA, Bun/Elysia, PostgreSQL); reproducible MusicBrainz lineage tables (same dump and code, same bytes). Deployed by a pull-based systemd timer gated on health checks. |
 
 [victorlenain.fr](https://www.victorlenain.fr/)
