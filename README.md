@@ -1,15 +1,20 @@
 # Victor Lenain
 
-Full-stack engineer in Paris. I build LLM products end to end: structured outputs, guardrails, retrieval, evaluation and tracing, plus the web apps around them.
+Développeur full-stack à Paris. J'intègre des LLM et des agents IA dans des produits web, et je mesure ce qu'ils produisent : tests, évaluations, garde-fous dans le code.
 
-Python · TypeScript · React · PostgreSQL · Docker · GitHub Actions
+TypeScript · React · Node.js / Bun · Ruby on Rails · Python · PostgreSQL · Docker · GitHub Actions
 
-## Selected work
+## Projets
 
-| Project | What it shows |
+| Projet | Ce qu'il montre |
 |---|---|
-| [aubesonore](https://github.com/VictorNain26/aubesonore) | Web radio on the air at [aubesonore.fr](https://aubesonore.fr/), built solo. Every week a Python pipeline finds new tracks, analyses them and picks what goes on air, using a model trained on my own votes. Listener site in React, Bun and PostgreSQL. |
-| [tomai-monorepo](https://github.com/VictorNain26/tomai-monorepo) | AI homework tutor for middle-school students (pre-launch, no users yet). Never handing over the answer is enforced by server code that checks each reply before the student sees it, not left to the prompt, and tested on simulated student conversations. Bun, Hono, PostgreSQL, React, Mistral API. |
-| [trip-brief-agent](https://github.com/VictorNain26/trip-brief-agent) | Prototype of a conversational agent that helps an undecided traveller choose where, when and with whom to go, then turns the conversation into a structured trip brief. Sourced web search, deterministic checks around the agent loop. Next.js, AI SDK, Claude. |
+| [catiche-monorepo](https://github.com/VictorNain26/catiche-monorepo) | Aide aux devoirs pour collégiens avec un tuteur IA qui aide l'élève sans faire l'exercice à sa place. Bun, Hono, PostgreSQL, React, Mistral. Pré-lancement, sans utilisateurs. |
+| [fabrique-cours-agents](https://github.com/VictorNain26/fabrique-cours-agents) | Cours en terminal dont chaque atelier ajoute un module à un agent qui tourne : garde-fous, validation humaine, serveur MCP, repli entre fournisseurs, budget par requête, non-régression en CI. Python, LangGraph. |
+| [aubesonore](https://github.com/VictorNain26/aubesonore) | Webradio diffusée 24 h/24 ([aubesonore.fr](https://aubesonore.fr/)), construite seul. Chaque semaine, un pipeline Python choisit les titres diffusés d'après un modèle entraîné sur mes votes. Site React, Bun, PostgreSQL. |
+| [portfolio_site](https://github.com/VictorNain26/portfolio_site) | [victorlenain.fr](https://www.victorlenain.fr/) : site Astro avec un assistant IA qui ne répond que sur moi et mon code, traces Langfuse et évaluation en CI. |
+| [tomai-curriculum](https://github.com/VictorNain26/tomai-curriculum) | Index RAG des programmes du collège, mesuré sur 189 questions (rappel@5 de 0,81 à 0,89), puis retiré sans avoir servi. |
+| [trip-brief-agent](https://github.com/VictorNain26/trip-brief-agent) | Prototype d'agent (Next.js, AI SDK, Claude) qui aide un voyageur indécis à choisir et transforme la conversation en brief de voyage structuré. |
 
-[victorlenain.fr](https://www.victorlenain.fr/)
+Avant : deux ans chez Capsens, agence de développement fintech, en React, Next.js, TypeScript et Ruby on Rails.
+
+[victorlenain.fr](https://www.victorlenain.fr/) · [LinkedIn](https://www.linkedin.com/in/victorlenain)
